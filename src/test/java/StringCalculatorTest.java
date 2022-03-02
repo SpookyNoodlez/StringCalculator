@@ -19,4 +19,8 @@ public class StringCalculatorTest {
     void testAddSixNumber(){
         assertEquals(22, new StringCalculator().Add("9,7,3,1,0,2"));
     }
+    @Test
+    void testNewLineDelimiter(){
+        assertEquals(20, new StringCalculator().Add("9\n7\n3\n1"));
+    }
 }

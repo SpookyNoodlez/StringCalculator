@@ -6,7 +6,7 @@ public class StringCalculator {
             return result;
         }
 
-        String[] tokens = numbers.split(",");
+        String[] tokens = numbers.split(",|\n");
 
         int numberOfNumbers = tokens.length;
 
