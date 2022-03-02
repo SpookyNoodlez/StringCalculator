@@ -7,4 +7,8 @@ public class StringCalculatorTest {
     void testAddOnEmptyReturnsZero(){
         assertEquals(0, new StringCalculator().Add(""));
     }
+    @Test
+    void testAddOneNumber(){
+        assertEquals(7, new StringCalculator().Add("7"));
+    }
 }

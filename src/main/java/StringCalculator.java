@@ -8,7 +8,14 @@ public class StringCalculator {
 
         String[] tokens = numbers.split(",");
 
-        for(int i = 0; i<3; i++){
+        int numberOfNumbers = tokens.length;
+
+        //limit to three
+        if(numberOfNumbers > 3){
+            numberOfNumbers = 3;
+        }
+
+        for(int i=0; i<numberOfNumbers; i++){
             result += Integer.parseInt(tokens[i]);
         }
 
