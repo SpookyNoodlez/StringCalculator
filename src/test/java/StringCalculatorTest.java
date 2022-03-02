@@ -23,4 +23,8 @@ public class StringCalculatorTest {
     void testNewLineDelimiter(){
         assertEquals(20, new StringCalculator().Add("9\n7\n3\n1"));
     }
+    @Test
+    void testMixedDelimiters(){
+        assertEquals(28, new StringCalculator().Add("9\n7,3\n1,8"));
+    }
 }
