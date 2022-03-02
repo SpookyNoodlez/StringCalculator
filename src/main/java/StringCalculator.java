@@ -10,11 +10,6 @@ public class StringCalculator {
 
         int numberOfNumbers = tokens.length;
 
-        //limit to three
-        if(numberOfNumbers > 3){
-            numberOfNumbers = 3;
-        }
-
         for(int i=0; i<numberOfNumbers; i++){
             result += Integer.parseInt(tokens[i]);
         }

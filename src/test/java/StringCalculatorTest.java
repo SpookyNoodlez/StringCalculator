@@ -15,4 +15,8 @@ public class StringCalculatorTest {
     void testAddTwoNumber(){
         assertEquals(16, new StringCalculator().Add("9,7"));
     }
+    @Test
+    void testAddSixNumber(){
+        assertEquals(22, new StringCalculator().Add("9,7,3,1,0,2"));
+    }
 }
