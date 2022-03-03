@@ -1,3 +1,5 @@
+import static java.lang.Character.isDigit;
+
 public class StringCalculator {
 
     public int Add(String numbers){
@@ -5,8 +7,16 @@ public class StringCalculator {
         if (numbers == ""){
             return result;
         }
-
-        String[] tokens = numbers.split(",|\n");
+        //If first character is a number, no delimiter is assumed to have been specified
+        String[] tokens;
+        if (isDigit(numbers.charAt(0))){
+            tokens = numbers.split(",|\n");
+        }
+        else{
+            char delimiter = numbers.charAt(0);
+            numbers = numbers.substring(2);
+            tokens = numbers.split(String.valueOf(delimiter));
+        }
 
         int numberOfNumbers = tokens.length;
 
