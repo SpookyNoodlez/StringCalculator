@@ -2,6 +2,12 @@ import static java.lang.Character.isDigit;
 
 public class StringCalculator {
 
+    private final Logger logger;
+
+    public StringCalculator(Logger logger) {
+        this.logger = logger;
+    }
+
     public int Add(String numbers) throws Exception {
         int  result = 0;
         if (numbers == ""){
@@ -25,6 +31,11 @@ public class StringCalculator {
             if (Integer.parseInt(tokens[i]) < 0){
                 throw new Exception("Negatives not allowed "+tokens[i]);
             }
+            //Log number if larger than 1000
+            if((Integer.parseInt(tokens[i]) > 1000)){
+                logger.log((Integer.parseInt(tokens[i])));
+            }
+
             result += Integer.parseInt(tokens[i]);
         }
 
