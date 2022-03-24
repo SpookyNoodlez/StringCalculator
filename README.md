@@ -1,0 +1,3 @@
+# StringCalculator
+
+![](<https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiYzBqdGNtVWJNeEVRRUI0dkkvWFdFVVVOSndNbUg2dkJzSmdTQnMwK3J1akl6K0l5aU5hOTJ5WHFGS2syY1VyV0laMjlybVJXTWdXdUMyVUpNVTN5Ny9vPSIsIml2UGFyYW1ldGVyU3BlYyI6IngvMGhubDJSeHBxbURoT2YiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=main>)
