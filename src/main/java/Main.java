@@ -7,7 +7,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         while (scanner.hasNextLine()) {
             String input = scanner.nextLine();
-            String numbers = input.substring(5, input.length()-1);
+            String numbers = input.substring(7, input.length()-1);
             int result = calculator.Add(numbers);
                     System.out.println(result);
         }

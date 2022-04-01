@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02ddbaf9-d551-4b34-9c95-202157926b94" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/IOtest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BigNumberLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BigNumberLogger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Logger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Logger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/IOtest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/IOtest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/StringCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/StringCalculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/LoggerStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LoggerStub.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/StringCalculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StringCalculatorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/IOtest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/IOtest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +40,7 @@
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../HA-TDD-Chess" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.IOtest">
     <configuration name="IOtest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="string-calculator" />
       <option name="PACKAGE_NAME" value="" />
@@ -58,9 +50,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IOtest.tester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="string-calculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IOtest" />
+      <option name="METHOD_NAME" value="tester" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.IOtest" />
+        <item itemvalue="JUnit.IOtest.tester" />
       </list>
     </recent_temporary>
   </component>
